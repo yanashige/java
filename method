@@ -1,0 +1,13 @@
+public class Meso{
+	public static void main(String[] args){
+		sayHi("Tom");
+		sayHi();
+	}
+ public static void sayHi(String name) {
+ System.out.println("Hi! I'm " +name);
+ 
+ }
+ public static void sayHi() {
+ System.out.println("Hi! I'm Nobody!");
+ }
+}
