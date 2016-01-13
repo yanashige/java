@@ -1,0 +1,16 @@
+package p08;
+
+import lib.Input;
+
+public class test1 {
+
+	public static void main(String[] args) {
+		int n, total=0;
+		while((n=Input.getInt()) !=0){
+			total += n;
+			System.out.println(total);
+			}
+
+	}
+
+}
